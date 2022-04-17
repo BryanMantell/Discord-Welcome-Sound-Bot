@@ -3,12 +3,10 @@ from ast import And
 import discord
 import os
 import time
-import random
 import json
 
 # Discord Bot Initialization
 client = discord.Client()
-voice_clients = {}
 
 # Load JSON File That Stores Token and Save Token To Variable 
 with open("config.json") as file:
