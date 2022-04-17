@@ -67,97 +67,97 @@ async def on_voice_state_update(member: discord.Member, before, after):
         if vc_before is None and member.id == Bryan:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Bryan"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Bryan"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4.5)
             await vc.disconnect()
         if vc_before is None and member.id == Michael:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Michael"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Michael"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Mitchell:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Mitchell"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Mitchell"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(5)
             await vc.disconnect()
         if vc_before is None and member.id == Michiko:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Michiko"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Michiko"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Stacey:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Stacey"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Stacey"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Sammy:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Sammy"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Sammy"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Zubat:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Zubat"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Zubat"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Akira:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Akira"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Akira"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Brayden:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Brayden"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Brayden"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Tom:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Tom"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Tom"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Ebi:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Ebi"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Ebi"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Ramon:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Ramon"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Ramon"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Matt:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Matt"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Matt"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Micah:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Micah"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Micah"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Sparta:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Sparta"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Sparta"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
         if vc_before is None and member.id == Spartan:
             channel = member.voice.channel
             vc = await channel.connect()
-            vc.play(discord.FFmpegPCMAudio(SoundPath["Spartan"], executable="ffmpeg\\ffmpeg.exe"))
+            vc.play(discord.FFmpegPCMAudio(SoundPath["Spartan"], executable="ffmpeg\\bin\\ffmpeg.exe"))
             time.sleep(4)
             await vc.disconnect()
     
