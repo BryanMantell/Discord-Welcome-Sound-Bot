@@ -6,9 +6,10 @@
 2. Clone this repository.
 3. Create a config.json file and assign your discord token to the attubute "Token" like this:
 
-    ``` \{
+    ``` json
+    {
     "Token":"Your Token Here"
-    \}
+    }
     ```
 4. Download ffmpeg from here: [Download ffmpeg-git-full.7z](https://www.gyan.dev/ffmpeg/builds/). Unzip and rename it to "ffmpeg". 
 5. Place both the config.json and ffmpeg folder in the same directory as 'Welcome Sound Bot.py'.
