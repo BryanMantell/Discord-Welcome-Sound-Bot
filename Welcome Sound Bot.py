@@ -38,7 +38,7 @@ SoundPath = {"Bryan": "Music\\Ladies.mp3",
           "Michiko": "Music\\HEYHEY.mp3",
           "Stacey": "Music\\DarkSouls.mp3", 
           "Sammy": "Music\\Hey.mp3",
-          "Zubat": "Music\\Hey.mp3", 
+          "Zubat": "Music\\Tobecont.mp3", 
           "Akira": "Music\\Hey.mp3",
           "Brayden": "Music\\Hey.mp3", 
           "Tom": "Music\\Hey.mp3",
@@ -102,7 +102,7 @@ async def on_voice_state_update(member: discord.Member, before, after):
             channel = member.voice.channel
             vc = await channel.connect()
             vc.play(discord.FFmpegPCMAudio(SoundPath["Zubat"], executable="ffmpeg\\bin\\ffmpeg.exe"))
-            time.sleep(4)
+            time.sleep(9)
             await vc.disconnect()
         if vc_before is None and member.id == Akira:
             channel = member.voice.channel
